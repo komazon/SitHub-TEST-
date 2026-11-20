@@ -1,0 +1,17 @@
+{
+  "users": {
+    "komazon": {
+      "id": 1000,
+      "username": "komazon",
+      "email": "uuu993421@gmail.com",
+      "salt": "08bbc8caec10fd6dfa4352a4241e949e",
+      "hash": "27647300d209c21f37edb760ac9a4d39a7e646155918526bb00c47622eaa2d11",
+      "dateJoined": "2026-11-20T09:42:58.148Z"
+    }
+  },
+  "sessions": {
+    "05ba5e7e1a0ef61c6427540acc28d91c1110119771d4473f": "komazon",
+    "8fb48ad89daf9e20f4fe599e4861696a778bc675cdd811b8": "komazon"
+  },
+  "nextId": 1001
+}

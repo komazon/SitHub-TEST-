@@ -1,0 +1,9 @@
+node_modules/*
+static/*
+build/*
+intl/*
+locales/*
+**/*.min.js
+**/node_modules/*
+scratch-gui/*
+/test/generated/

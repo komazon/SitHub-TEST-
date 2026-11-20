@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonateBannerTest variant A renders the original donate button 1`] = `
+<div
+  class="title-banner donate-banner"
+>
+  <div
+    class="donate-container"
+  >
+    <img
+      aria-hidden="true"
+      class="donate-icon"
+      src="/images/ideas/try-it-icon.svg"
+    />
+    <div
+      class="donate-central-items"
+    >
+      <p
+        class="donate-text"
+      >
+        Support the internet’s ad-free digital playground and help keep the nonprofit Scratch free for every kid, everywhere.
+      </p>
+      <button
+        class="button donate-button"
+      >
+        Donate
+      </button>
+    </div>
+  </div>
+  <button
+    class="button donate-close-button forms-close-button"
+    name="closeButton"
+  >
+    <img
+      alt="close-icon"
+      class="modal-content-close-img"
+      draggable="false"
+      src="/svgs/modal/close-x.svg"
+    />
+  </button>
+</div>
+`;

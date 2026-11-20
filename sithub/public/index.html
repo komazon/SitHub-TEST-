@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#855CD6">
+  <title>SitHub | ScratchWWW</title>
+  <link rel="stylesheet" href="/sithub/style.css">
+</head>
+<body class="sithub-page">
+  <header class="scratch-nav" role="banner">
+    <a class="scratch-logo" href="/" aria-label="Scratch ホーム"><img src="/images/logo_sm.png" alt="Scratch"></a>
+    <nav class="scratch-links" aria-label="メインナビゲーション">
+      <a href="/projects/editor/">作る</a>
+      <a href="/explore/projects/all">見る</a>
+      <a href="/ideas">アイデア</a>
+      <a class="current" href="/sithub/" aria-current="page">SitHub</a>
+    </nav>
+    <form class="scratch-search" action="/search/projects" method="get">
+      <input name="q" type="search" placeholder="Scratchを検索" aria-label="Scratchを検索">
+      <button type="submit" aria-label="検索"></button>
+    </form>
+    <div class="scratch-account"><button id="lang" class="quiet" type="button">日本語 / EN</button><div id="account"></div></div>
+  </header>
+  <div class="sithub-shell">
+    <aside class="sidebar" aria-label="SitHubメニュー">
+      <div class="side-title" data-i18n="workspace">Workspace</div>
+      <a href="/sithub/#/dashboard" data-nav="dashboard">Dashboard</a>
+      <a href="/sithub/#/explore" data-nav="explore">Explore</a>
+      <a href="/sithub/#/import">Import from PC</a>
+      <button id="new-repo-side" class="side-create">＋ <span data-i18n="newRepo">New repository</span></button>
+      <div id="side-admin"></div>
+      <div class="side-foot">Sit engine · .sb3git</div>
+    </aside>
+    <main id="main"><div class="loading">読み込み中…</div></main>
+  </div>
+  <div id="modal-root"></div><div id="toast" role="status"></div>
+  <script src="/sithub/app.js" defer></script>
+</body>
+</html>
